@@ -1,0 +1,212 @@
+body {
+  margin: 0px;
+  background-color: rgb(9, 91, 132);
+}
+
+p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.header {
+  background-color: rgba(2, 48, 71, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 100;
+}
+
+.profile-picture {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.name {
+  font-family: 'Rubik Iso', cursive;
+  font-size: 30px;
+  background-color: rgba(2, 48, 71, 1);
+  color: white;
+  margin: 5px;
+}
+
+.info {
+  width: 400px;
+  font-family: 'Handjet', cursive;
+  font-size: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cloud-sticker {
+  color: white;
+  font-size: 70px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.content {
+  margin-top: 120px;
+}
+
+.subheader {
+  font-family: 'Rubik Iso', cursive;
+  font-size: 30px;
+  background-color: rgb(9, 67, 96);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.list-1 {
+  font-family: 'Handjet', cursive;
+  font-size: 30px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.table {
+  font-family: 'Handjet', cursive;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.table-2 {
+  font-family: 'Handjet', cursive;
+  font-size: 30px;
+  color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none, underline;
+  color: white;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.gif {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.chaeyoung {
+  border-radius: 80px;
+  border-style: solid;
+  border-width: 5px;
+  border-color:rgb(9, 67, 96);
+  margin-top: 20px;
+}
+
+.thanks {
+  font-family: 'Rubik Iso', cursive;
+  color: white;
+  font-size: 80px;
+  margin-top: 20px;
+}
+
+.hobbies-title {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  font-family: 'Rubik Iso', cursive;
+  background-color:rgba(2, 48, 71, 1);
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hobbies {
+  margin-top: 150px;
+  text-align: center;
+}
+
+.text {
+  color: white;
+  font-family: 'Handjet', cursive;
+  font-size: 40px;
+  margin: 30px;
+}
+
+.contacts-title {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  font-family: 'Rubik Iso', cursive;
+  background-color:rgba(2, 48, 71, 1);
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contacts-text {
+  color: white;
+  font-family: 'Handjet', cursive;
+  font-size: 20px;
+  margin-top: 80px;
+  text-align: center;
+}
+
+.fblink {
+  font-size: 50px;
+}
+
+.button {
+  border-radius: 25px;
+  border-style: none;
+  background-color:rgba(2, 48, 71, 1);
+  color: white;
+  height: 50px;
+  width: 80px;
+}
+
+.textbox {
+  background-color:rgb(54, 141, 187);
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
